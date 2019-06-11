@@ -1,2 +1,1 @@
-# go-micro-demo
-go micro demo
+A micro service demo.
