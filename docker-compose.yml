@@ -16,7 +16,7 @@ services:
     command: api
     environment:
       MICRO_API_HANDLER: "rpc"
-      MICRO_API_NAMESPACE: "top.hf.service"
+      MICRO_API_NAMESPACE: "top.hfjy.service"
       MICRO_REGISTRY: "consul"
       MICRO_REGISTRY_ADDRESS: "consul:8500"
       MICRO_API_ADDRESS: ":8080"
