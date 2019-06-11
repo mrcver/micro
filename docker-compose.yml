@@ -39,12 +39,12 @@ services:
     container_name: dashboard
     depends_on:
       - consul
-  user-services:
-    image: user-services
+  user-service:
+    image: user-service
     command: --registry=consul --registry_address=consul:8500
     environment:
       MICRO_SERVER_ADDRESS: ":50001"
     restart: always
-    container_name: user-services
+    container_name: user-service
     depends_on:
       - consul
